@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DeploymentModel>Package</DeploymentModel>
+  <ProductVersion>14.0.3002.101</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>ControlFlowTraining.database</Name>
+    <FullPath>ControlFlowTraining.database</FullPath>
+  </Database>
+  <DataSources />
+  <DataSourceViews />
+  <DeploymentModelSpecificContent>
+    <Manifest>
+      <DTSPackages>
+        <DtsPackage FormatVersion="8">
+          <Name>01_BulkInsertDemo.dtsx</Name>
+          <FullPath>01_BulkInsertDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>02_SequenceContainerDemo.dtsx</Name>
+          <FullPath>02_SequenceContainerDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>03_ExecuteProcessTask.dtsx</Name>
+          <FullPath>03_ExecuteProcessTask.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>05_FileSystemFileDemo.dtsx</Name>
+          <FullPath>05_FileSystemFileDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>06_WebServiceTaskDemo.dtsx</Name>
+          <FullPath>06_WebServiceTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>07_XMLTaskDemo.dtsx</Name>
+          <FullPath>07_XMLTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>08_TransferDatabaseTaskDemo.dtsx</Name>
+          <FullPath>08_TransferDatabaseTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>09_TransferSQLServerObjectsDemo.dtsx</Name>
+          <FullPath>09_TransferSQLServerObjectsDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>10_TransferMasterSPDemo.dtsx</Name>
+          <FullPath>10_TransferMasterSPDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>11_TransferJobsDemo.dtsx</Name>
+          <FullPath>11_TransferJobsDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>12_TransferLoginsDemo.dtsx</Name>
+          <FullPath>12_TransferLoginsDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>14_DataProfilingTaskDemo.dtsx</Name>
+          <FullPath>14_DataProfilingTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>15_ForLoopContainerDemo1.dtsx</Name>
+          <FullPath>15_ForLoopContainerDemo1.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>16_ForLoopContainerDemo2.dtsx</Name>
+          <FullPath>16_ForLoopContainerDemo2.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>17_ForEachFileEnumeratorDemo.dtsx</Name>
+          <FullPath>17_ForEachFileEnumeratorDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>18_ForEachItemEnumeratorDemo.dtsx</Name>
+          <FullPath>18_ForEachItemEnumeratorDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>19_ForEachVariableEnumeratorDemo.dtsx</Name>
+          <FullPath>19_ForEachVariableEnumeratorDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>20_ForEachNodeListEnumeratorDemo.dtsx</Name>
+          <FullPath>20_ForEachNodeListEnumeratorDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>21_ForEachSMOEnumeratorDemo.dtsx</Name>
+          <FullPath>21_ForEachSMOEnumeratorDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>22_ForEachAdoEnumeratorDemo.dtsx</Name>
+          <FullPath>22_ForEachAdoEnumeratorDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>23_ConfigurationFilesDemo.dtsx</Name>
+          <FullPath>23_ConfigurationFilesDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>24_ConfigurationTablesDemo.dtsx</Name>
+          <FullPath>24_ConfigurationTablesDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>25_DynamicConnectionManagerDemo.dtsx</Name>
+          <FullPath>25_DynamicConnectionManagerDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>26_DynamicTasksDemo.dtsx</Name>
+          <FullPath>26_DynamicTasksDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>27_PrecedenceConstraintsDemo.dtsx</Name>
+          <FullPath>27_PrecedenceConstraintsDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>28_EventsDemo.dtsx</Name>
+          <FullPath>28_EventsDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>29_LogProvidersDemo.dtsx</Name>
+          <FullPath>29_LogProvidersDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>30_WMIDataReaderDemo1.dtsx</Name>
+          <FullPath>30_WMIDataReaderDemo1.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>31_WMIDataReaderDemo2.dtsx</Name>
+          <FullPath>31_WMIDataReaderDemo2.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>32_WMIEventWatcherTaskDemo.dtsx</Name>
+          <FullPath>32_WMIEventWatcherTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>33_MSMQTaskReceiverDemo.dtsx</Name>
+          <FullPath>33_MSMQTaskReceiverDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>33_MSMQTaskSenderDemo.dtsx</Name>
+          <FullPath>33_MSMQTaskSenderDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>34_BackUpDatabaseTaskDemo.dtsx</Name>
+          <FullPath>34_BackUpDatabaseTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>35_ExecuteSQLAgentTaskDemo.dtsx</Name>
+          <FullPath>35_ExecuteSQLAgentTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>36_ExecuteTSQLStatementDemo.dtsx</Name>
+          <FullPath>36_ExecuteTSQLStatementDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>37_UpdateStatisticsDemo.dtsx</Name>
+          <FullPath>37_UpdateStatisticsDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>38_HistoryCleanUpTaskDemo.dtsx</Name>
+          <FullPath>38_HistoryCleanUpTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>39_ShrinkDatabaseTaskDemo.dtsx</Name>
+          <FullPath>39_ShrinkDatabaseTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>40_RebuildIndexesTaskDemo.dtsx</Name>
+          <FullPath>40_RebuildIndexesTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>41_ReorganizeIndexTaskDemo.dtsx</Name>
+          <FullPath>41_ReorganizeIndexTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>42_CheckDatabaseIntegrityTaskDemo.dtsx</Name>
+          <FullPath>42_CheckDatabaseIntegrityTaskDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>43_CheckpointsDemo.dtsx</Name>
+          <FullPath>43_CheckpointsDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>44_XMLSourceAndRowFileDestinationDemo.dtsx</Name>
+          <FullPath>44_XMLSourceAndRowFileDestinationDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>45_RawFileSourceAndSQLServerDestinationDemo.dtsx</Name>
+          <FullPath>45_RawFileSourceAndSQLServerDestinationDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>46_ADONETSourceAndADONETDestinationDemo.dtsx</Name>
+          <FullPath>46_ADONETSourceAndADONETDestinationDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>47_RecordSetDestinationDemo.dtsx</Name>
+          <FullPath>47_RecordSetDestinationDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>48_DataReaderDestinationDemo.dtsx</Name>
+          <FullPath>48_DataReaderDestinationDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>49_LoadDataIncrementallyDemo.dtsx</Name>
+          <FullPath>49_LoadDataIncrementallyDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>50_CDC_InitialLoadDemo.dtsx</Name>
+          <FullPath>50_CDC_InitialLoadDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>51_CDC_IncrementalLoadDemo.dtsx</Name>
+          <FullPath>51_CDC_IncrementalLoadDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+      </DTSPackages>
+    </Manifest>
+  </DeploymentModelSpecificContent>
+  <ControlFlowParts />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+        <TargetServerVersion>SQLServer2017</TargetServerVersion>
+        <ParameterConfigurationValues />
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

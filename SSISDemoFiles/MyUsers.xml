@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<Users>
+  <User>
+    <UserName>Connors</UserName>
+    <Password>McGregor</Password>
+    <Country>SouthAfrica</Country>
+    <Email>hc@gmail.com</Email>
+  </User>
+  <User>
+    <UserName>Jonty</UserName>
+    <Password>Rhodes</Password>
+    <Country>SouthAfrica</Country>
+    <Email>jr@gmail.com</Email>
+  </User>
+  <User>
+    <UserName>Brian</UserName>
+    <Password>Lara</Password>
+    <Country>WestIndies</Country>
+    <Email>bl@gmail.com</Email>
+  </User>
+  <User>
+    <UserName>Chris</UserName>
+    <Password>Gayle</Password>
+    <Country>WestIndies</Country>
+    <Email>cg@gmail.com</Email>
+  </User>
+</Users>

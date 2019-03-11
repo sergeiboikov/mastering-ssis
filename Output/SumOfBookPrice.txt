@@ -1,0 +1,1 @@
+<ResultRootNode>73.5</ResultRootNode>

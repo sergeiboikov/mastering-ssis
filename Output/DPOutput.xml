@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<DataProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
+  <ProfileVersion>1.0</ProfileVersion>
+  <DataSources>
+    <DtsDataSource ID="{F22D370C-FA23-46AD-82F7-8682E1F8EAB2}" Name="DPOutput.xml">
+      <DtsConnectionManagerID>DPOutput.xml</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{4CD9FB31-AE73-4428-A3C0-C0E072A9C24A}" Name="LocalHost.AdventureWorks2017">
+      <DtsConnectionManagerID>LocalHost.AdventureWorks2017</DtsConnectionManagerID>
+    </DtsDataSource>
+  </DataSources>
+  <DataProfileInput>
+    <ProfileMode>Exact</ProfileMode>
+    <Timeout>0</Timeout>
+    <Requests>
+      <ColumnLengthDistributionProfileRequest ID="LengthDistReq">
+        <DataSourceID>{4CD9FB31-AE73-4428-A3C0-C0E072A9C24A}</DataSourceID>
+        <Table Schema="Person" Table="Person" />
+        <Column IsWildCard="false" ColumnName="FirstName" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+      </ColumnLengthDistributionProfileRequest>
+      <ColumnNullRatioProfileRequest ID="NullRatioReq">
+        <DataSourceID>{4CD9FB31-AE73-4428-A3C0-C0E072A9C24A}</DataSourceID>
+        <Table Schema="Person" Table="Person" />
+        <Column IsWildCard="false" ColumnName="Title" />
+      </ColumnNullRatioProfileRequest>
+      <ColumnPatternProfileRequest ID="PatternReq">
+        <DataSourceID>{4CD9FB31-AE73-4428-A3C0-C0E072A9C24A}</DataSourceID>
+        <Table Schema="Person" Table="Person" />
+        <Column IsWildCard="false" ColumnName="Title" />
+        <MaxNumberOfPatterns>10</MaxNumberOfPatterns>
+        <PercentageDataCoverageDesired>95</PercentageDataCoverageDesired>
+        <CaseSensitive>false</CaseSensitive>
+        <Delimiters> \t\r\n</Delimiters>
+        <Symbols>,.;:-"'`~=&amp;/\\@!?()&lt;&gt;[]{}|#*^%</Symbols>
+        <TagTableName />
+      </ColumnPatternProfileRequest>
+    </Requests>
+  </DataProfileInput>
+  <DataProfileOutput>
+    <Profiles>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq" IsExact="true">
+        <DataSourceID>{4CD9FB31-AE73-4428-A3C0-C0E072A9C24A}</DataSourceID>
+        <Table DataSource="." Database="AdventureWorks2017" Schema="Person" Table="Person" RowCount="19972" />
+        <Column Name="FirstName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="false" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>2</MinLength>
+        <MaxLength>24</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>9</Length>
+            <Count>877</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>15</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>3</Length>
+            <Count>620</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>12</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>6</Length>
+            <Count>5374</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>7</Length>
+            <Count>3835</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>24</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>10</Length>
+            <Count>117</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>4</Length>
+            <Count>2569</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>5</Length>
+            <Count>5019</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>2</Length>
+            <Count>13</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>11</Length>
+            <Count>30</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>8</Length>
+            <Count>1515</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq" IsExact="true">
+        <DataSourceID>{4CD9FB31-AE73-4428-A3C0-C0E072A9C24A}</DataSourceID>
+        <Table DataSource="." Database="AdventureWorks2017" Schema="Person" Table="Person" RowCount="19972" />
+        <Column Name="Title" SqlDbType="NVarChar" MaxLength="8" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>18963</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnPatternProfile ProfileRequestID="PatternReq" IsExact="true">
+        <DataSourceID>{4CD9FB31-AE73-4428-A3C0-C0E072A9C24A}</DataSourceID>
+        <Table DataSource="." Database="AdventureWorks2017" Schema="Person" Table="Person" RowCount="19972" />
+        <Column Name="Title" SqlDbType="NVarChar" MaxLength="8" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <TopRegexPatterns>
+          <PatternDistributionItem>
+            <RegexText>MR.</RegexText>
+            <Frequency>57</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>MS.</RegexText>
+            <Frequency>41</Frequency>
+          </PatternDistributionItem>
+        </TopRegexPatterns>
+      </ColumnPatternProfile>
+    </Profiles>
+  </DataProfileOutput>
+</DataProfile>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<catalog>
+  <book id="bk101">
+    <author>Gambardella, Matthew</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer</genre>
+    <price>44.95</price>
+  </book>
+  <book id="bk102">
+    <author>Ralls, Kim</author>
+    <title>Midnight Rain</title>
+    <genre>Fantasy</genre>
+    <price>5.95</price>
+  </book>
+  <book id="bk106">
+    <author>Randall, Cynthia</author>
+    <title>Lover Birds</title>
+    <genre>Romance</genre>
+    <price>4.95</price>
+  </book>
+</catalog>

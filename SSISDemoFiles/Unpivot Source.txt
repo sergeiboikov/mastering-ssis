@@ -1,0 +1,5 @@
+Month	Sunday	Monday	Tuesday	Wednesday	Thrusday	Friday	Saturday
+January	200	100	123	154	50	110	600
+February	400	200	523	754	450	1810	6800
+March	2900	1900	1923	1954	590	1910	6900
+April	800	10	12	15	5	11	60

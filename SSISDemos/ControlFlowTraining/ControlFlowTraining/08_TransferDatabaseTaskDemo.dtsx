@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/1/2019 3:20:52 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="EPRUSARW1252"
+  DTS:CreatorName="SARATOV\Sergei_Boikov"
+  DTS:DTSID="{A21FAB21-34F5-4D02-B8EE-E16CFFD60C6F}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.3002.101"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="08_TransferDatabaseTaskDemo"
+  DTS:PackageType="5"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{00A9EC0E-9743-40FD-8299-7C21C0BB18A1}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[.\MSSQL2012]"
+      DTS:CreationName="SMOServer"
+      DTS:DTSID="{FF7093D1-D5AB-4BA2-B7FB-C46BFBE59991}"
+      DTS:ObjectName=".\MSSQL2012">
+      <DTS:ObjectData>
+        <SMOServerConnectionManager
+          ConnectionString="SqlServerName=.\MSSQL2012;UseWindowsAuthentication=True;UserName=;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[.\MSSQL2017]"
+      DTS:CreationName="SMOServer"
+      DTS:DTSID="{A68ED006-4A01-4514-BE88-FBFE8F5B3142}"
+      DTS:ObjectName=".\MSSQL2017">
+      <DTS:ObjectData>
+        <SMOServerConnectionManager
+          ConnectionString="SqlServerName=.\MSSQL2017;UseWindowsAuthentication=True;UserName=;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Transfer Database Task"
+      DTS:CreationName="Microsoft.TransferDatabaseTask"
+      DTS:Description="Transfer Database Task"
+      DTS:DTSID="{435F4772-E067-4770-9E09-42F1859F8590}"
+      DTS:ExecutableType="Microsoft.TransferDatabaseTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Transfer Database Task"
+      DTS:TaskContact="Transfer Database Task; Microsoft Corporation; SQL Server 2017 RC1; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <TransferDatabasesTaskData
+          SrcConn="{FF7093D1-D5AB-4BA2-B7FB-C46BFBE59991}"
+          DestConn="{A68ED006-4A01-4514-BE88-FBFE8F5B3142}"
+          Method="1"
+          SrcDBName="Demo"
+          ReattachSrcDB="True"
+          SrcDBFiles="&quot;Demo.mdf&quot;,&quot;C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQL2012\MSSQL\DATA&quot;,&quot;&quot;;&quot;Demo_log.ldf&quot;,&quot;C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQL2012\MSSQL\DATA&quot;,&quot;&quot;"
+          DestDBName="Demo"
+          DestDBFiles="&quot;Demo.mdf&quot;,&quot;D:\Databases&quot;,&quot;&quot;;&quot;Demo_log.ldf&quot;,&quot;D:\Databases&quot;,&quot;&quot;"
+          DestOverwrite="True" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="191,42"
+          Id="Package\Transfer Database Task"
+          TopLeft="281,143" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
